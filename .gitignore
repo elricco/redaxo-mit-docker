@@ -10,3 +10,14 @@ html/redaxo/cache
 
 # redaxo media files (except in subfolders)
 html/media/*.*
+!html/media/README.md
+
+# ENV wird lokal definiert, hat deshalb nichts im Repo zu suchen
+.env
+
+# Keine Node-Module versionieren!
+# Unnötig groß für ein Repo, und sie kommen ja per npm/yarn.
+node_modules
+
+# IDE config, brauchen wir nicht in diesem Projekt
+.idea
