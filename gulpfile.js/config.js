@@ -37,16 +37,19 @@ const config = {
             'title': 'SVGs',
             'src': ['./source/templates/svg/*.svg'],
             'dest': './html/assets/svg'
+            //'dest': './html/theme/public/svg'
         },
         {
             'title': 'Material Icons',
             'src': ['./node_modules/material-design-icons/iconfont/*.{woff,woff2}'],
             'dest': './html/assets/fonts'
+            //'dest': './html/theme/public/fonts'
         },
         {
             'title': 'Bootstrap icons',
             'src': ['./node_modules/bootstrap-sass/assets/fonts/bootstrap/*.{woff,woff2}'],
             'dest': './html/assets/fonts/bootstrap'
+            //'dest': './html/theme/public/fonts/bootstrap'
         }
     ],
 
@@ -63,8 +66,10 @@ const config = {
     'images': {
         'sourceFiles': ['./source/images/**/*.{jpg,png,gif,svg}'],
         'destinationFolder': './html/assets/images',
+        //'destinationFolder': './html/theme/public/images',
         'watchFiles': ['./source/images/**/*.{jpg,png,gif,svg}'],
         'cleanFiles': ['./html/assets/images/*.{jpg,png,gif,svg}']
+        //'cleanFiles': ['./html/theme/public/images/*.{jpg,png,gif,svg}']
     },
 
     // Modernizr
@@ -91,16 +96,20 @@ const config = {
     'scripts': {
         'sourceFiles': ['./source/scripts/script.js'],
         'destinationFolder': './html/assets/js',
+        //'destinationFolder': './html/theme/public/js',
         'watchFiles': ['./source/scripts/**/*.js'],
         'cleanFiles': ['./html/assets/js/*.{js,map}']
+        //'cleanFiles': ['./html/theme/public/js/*.{js,map}']
     },
 
     // Styles
     'styles': {
         'sourceFiles': ['./source/styles/*.scss'],
         'destinationFolder': './html/assets/css',
+        //'destinationFolder': './html/theme/public/css',
         'watchFiles': ['./source/styles/**/*.scss'],
         'cleanFiles': ['./html/assets/css/*.{css,map}']
+        //'cleanFiles': ['./html/theme/public/css/*.{css,map}']
     },
 
     // SVG
@@ -108,8 +117,10 @@ const config = {
     'svg': {
         'sourceFiles': ['./source/svg/**/*.svg'],
         'destinationFolder': './html/assets/svg',
+        //'destinationFolder': './html/theme/public/svg',
         'watchFiles': ['./source/svg/**/*.svg'],
         'cleanFiles': ['./html/assets/svg/*.svg']
+        //'cleanFiles': ['./html/theme/public/svg/*.svg']
     },
 
     // Watch
